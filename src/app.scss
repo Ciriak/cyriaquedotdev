@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  background-color: #212121;
+  padding: 0;
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  .section-bg{
+    height: 100%;
+    width: 100%;
+    video{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .section-content{
+    position: absolute;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    background-image: url('/grid.png');
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+}
+
+.main-section{
+  .section-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    .links-container{
+      display: flex;
+      .link{
+        opacity: 0.8;
+        padding: 20px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+
+        img{
+          height: 48px;
+        }
+
+        &:hover{
+          opacity: 1.0;
+        }
+      }
+      
+    }
+  }
+}
+
+.video-bg{
+  opacity: 0;
+  transition-duration: 1s;
+  &.loaded{
+    opacity: 1.0;
+  }
+}
