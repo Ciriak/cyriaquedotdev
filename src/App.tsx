@@ -8,6 +8,29 @@ interface link {
   url: string;
   icon: string;
 }
+
+interface Background {
+  name: string;
+  label: string;
+}
+
+const backgrounds: Background[] = [{
+  name: "tf2",
+  label: "Team Fortress 2 (2007)"
+},
+{
+  name: "halo",
+  label: "Halo : The Master Chief Collection (2014)"
+},
+{
+  name: "dkc2",
+  label: "Donkey Kong Country 2 (1995)"
+},
+{
+  name: "skyrim",
+  label: "The Elder Scrolls V : Skyrim (2011)"
+}]
+
 const links: link[] = [{
   url: "https://github.com/Ciriak",
   icon: "github.png",
@@ -79,10 +102,13 @@ function App() {
 
   const [subtitle, setSubtitle] = useState(originalSubTitle);
   const [videoUrl, setVideoUrl] = useState("");
+  const [bgLabel, setBgLabel] = useState("");
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   useEffect(() => {
-    setVideoUrl(setBgVideo());
+    const background = setBgVideo();
+    setVideoUrl("/video-bg/" + background.name + ".mp4");
+    setBgLabel(background.label);
   }, []);
 
   let videoClasses = "section-bg video-bg";
@@ -112,10 +138,21 @@ function App() {
               </a>
             })}
           </div>
+
+
+          <a className="work-anchor" href="#work">
+            <span>MY WORK</span>
+            <div className="chevron"><img src="/chevron-down.png" alt="My work" /></div>
+          </a>
+
+          <div className="bg-infos">
+            <span className="background-label">{bgLabel}</span>
+          </div>
+
         </div>
       </div>
 
-      <div className="section work-section">
+      <div className="section work-section" id="work">
         <div className="section-bg">
 
         </div>
@@ -138,9 +175,8 @@ function App() {
    * Select a random video and return it's url
    */
   function setBgVideo() {
-    const videosList = ["tf2", "halo", "skyrim", "dkc2"];
-    const video = videosList[Math.floor(Math.random() * videosList.length)];
-    return "/video-bg/" + video + ".mp4";
+    const background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+    return background;
   }
 }
 
