@@ -34,7 +34,11 @@ const backgrounds: Background[] = [{
 },
 {
   name: "ori",
-  label: "Ori and the will of the wisps (2020)"
+  label: "Ori and the blind forest (2015)"
+},
+{
+  name: "celeste",
+  label: "Celeste (2018)"
 }]
 
 const links: link[] = [{
