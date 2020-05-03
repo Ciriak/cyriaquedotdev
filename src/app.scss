@@ -9,9 +9,9 @@ body{
 }
 
 .section{
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
-  overflow: hidden;
+
   .section-bg{
     height: 100%;
     width: 100%;
@@ -29,7 +29,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     z-index: 2;
   }
 }
@@ -62,9 +62,29 @@ body{
   }
 }
 
+.work-section{
+  .section-bg{
+    background-color: #212121;
+    height: 100%;
+  }
+  .section-content{
+    h1{
+      text-align: center;
+      margin: 20px;
+    }
+    .works-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
 .video-bg{
   opacity: 0;
   transition-duration: 1s;
+  position: fixed;
   &.loaded{
     opacity: 1.0;
   }
