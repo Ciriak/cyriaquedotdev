@@ -14,6 +14,8 @@ interface Background {
   label: string;
 }
 
+let currentBg: any;
+
 const backgrounds: Background[] = [{
   name: "tf2",
   label: "Team Fortress 2 (2007)"
@@ -103,12 +105,14 @@ function App() {
   const [subtitle, setSubtitle] = useState(originalSubTitle);
   const [videoUrl, setVideoUrl] = useState("");
   const [bgLabel, setBgLabel] = useState("");
+  const [showBgLabel, setShowBgLabel] = useState(true);
+  const [showAnchor, setShowAnchor] = useState(true);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoBgOffset, setVideoBgOffset] = useState(0);
 
   useEffect(() => {
-    const background = setBgVideo();
-    setVideoUrl("/video-bg/" + background.name + ".mp4");
-    setBgLabel(background.label);
+    setVideoBg();
+    listenScroll();
   }, []);
 
   let videoClasses = "section-bg video-bg";
@@ -119,7 +123,7 @@ function App() {
   return (
     <div className="cyriaque">
       <div className="section main-section">
-        <div className={videoClasses}>
+        <div className={videoClasses} style={{ marginTop: "-" + videoBgOffset + "px" }}>
           <video src={String(videoUrl)} autoPlay loop muted onCanPlay={() => {
             setVideoLoaded(true)
           }}></video>
@@ -140,13 +144,13 @@ function App() {
           </div>
 
 
-          <a className="work-anchor" href="#work">
+          <a className={`work-anchor ${showAnchor ? "active" : ""}`} href="#work">
             <span>MY WORK</span>
             <div className="chevron"><img src="/chevron-down.png" alt="My work" /></div>
           </a>
 
-          <div className="bg-infos">
-            <span className="background-label">{bgLabel}</span>
+          <div className={`bg-infos ${showBgLabel ? "active" : ""}`}>
+            <span className="background-label">{bgLabel}    <b onClick={() => { setVideoBg() }}>[change]</b></span>
           </div>
 
         </div>
@@ -174,10 +178,33 @@ function App() {
   /**
    * Select a random video and return it's url
    */
-  function setBgVideo() {
+  function getVideoBg() {
     const background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
     return background;
   }
+
+  function setVideoBg() {
+    const background = getVideoBg();
+    if (background === currentBg) {
+      setVideoBg();
+      return;
+    }
+    currentBg = background;
+    setVideoUrl("/video-bg/" + background.name + ".mp4");
+    setBgLabel(background.label);
+  }
+
+  /**
+    * Listen for user scroll
+    */
+  function listenScroll() {
+    window.onscroll = function (e: any) {
+      setShowBgLabel(window.scrollY === 0);
+      setShowAnchor(window.scrollY < (this.window.innerHeight / 3));
+      setVideoBgOffset(window.scrollY / 1.5);
+    }
+  }
+
 }
 
 export default App;
