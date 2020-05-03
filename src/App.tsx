@@ -31,6 +31,10 @@ const backgrounds: Background[] = [{
 {
   name: "skyrim",
   label: "The Elder Scrolls V : Skyrim (2011)"
+},
+{
+  name: "ori",
+  label: "Ori and the will of the wisps (2020)"
 }]
 
 const links: link[] = [{
