@@ -94,6 +94,12 @@ const works: IWorkProps[] = [
     url: "https://twitter.com/DLWallpaperBot"
   },
   {
+    image: "/work/findpaper.jpg",
+    title: "Findpaper",
+    desc: "A small Wallpaper search engine",
+    url: "http://findpaper.tech"
+  },
+  {
     image: "/work/codepen.png",
     title: "My Codepen",
     desc: "A collection of small web experiments.",
@@ -121,7 +127,7 @@ function App() {
   useEffect(() => {
     setVideoBg();
     listenScroll();
-  }, []);
+  }, [setVideoBg]);
 
   let videoClasses = "section-bg video-bg";
   if (videoLoaded) {
