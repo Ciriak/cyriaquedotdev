@@ -127,7 +127,8 @@ function App() {
   useEffect(() => {
     setVideoBg();
     listenScroll();
-  }, [setVideoBg]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   let videoClasses = "section-bg video-bg";
   if (videoLoaded) {
