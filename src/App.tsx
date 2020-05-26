@@ -114,7 +114,7 @@ const works: IWorkProps[] = [
 
 function App() {
 
-  const originalSubTitle = "Frontend developer";
+  const originalSubTitle = "Front-End developer";
 
   const [subtitle, setSubtitle] = useState(originalSubTitle);
   const [videoUrl, setVideoUrl] = useState("");
