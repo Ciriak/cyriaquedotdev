@@ -88,10 +88,27 @@ a{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
+    h1, h2, .links-container{
+      opacity: 0;
+    }
+
+    h1{
+      animation: fadeIn 0.5s forwards;
+      animation-delay: 0.5s;
+    }
+
+    h2{
+      animation: fadeIn 0.5s forwards;
+      animation-delay: 1s;
+    }
+
     .links-container{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      animation: fadeIn 0.5s forwards;
+      animation-delay: 1.5s;
       .link{
         opacity: 0.8;
         padding: 20px;
@@ -107,6 +124,12 @@ a{
         }
       }
       
+    }
+
+    @keyframes fadeIn {
+      to{
+        opacity: 1.0;
+      }
     }
 
     .work-anchor{
