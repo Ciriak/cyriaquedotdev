@@ -89,13 +89,8 @@ a{
     flex-direction: column;
     text-align: center;
 
-    h1, h2, .links-container{
+    h2, .links-container{
       opacity: 0;
-    }
-
-    h1{
-      animation: fadeIn 0.5s forwards;
-      animation-delay: 0.5s;
     }
 
     h2{
