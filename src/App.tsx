@@ -85,7 +85,7 @@ const works: IWorkProps[] = [
     url: 'https://steam-scanner.com',
   },
   {
-    image: '/work/youtube-cutter.jpg',
+    image: '/work/youtube-cutter.png',
     title: 'Youtube Cutter',
     desc: 'An online tool that allow you to cut and download any Youtube clip as a video or audio file',
     url: 'https://youtube-cutter.tools',
