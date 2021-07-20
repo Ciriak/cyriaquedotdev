@@ -75,8 +75,7 @@ const works: IWorkProps[] = [
   {
     image: '/work/scanner.png',
     title: 'Steam Scanner',
-    desc:
-      'Steam Scanner is an utility that runs as a background process, grabs your games from others launchers and adds them to your Steam library.',
+    desc: 'Steam Scanner is an utility that runs as a background process, grabs your games from others launchers and adds them to your Steam library.',
     url: 'https://steam-scanner.com',
   },
   {
@@ -112,8 +111,7 @@ const works: IWorkProps[] = [
   {
     image: '/work/ludum.png',
     title: 'Ludum Dare entries',
-    desc:
-      'My entries for the <b>Ludum Dare</b>,<br> a competition where you have to create a game in 48 hours.<br>The compos were done in solo and the jams with some friends',
+    desc: 'My entries for the <b>Ludum Dare</b>,<br> a competition where you have to create a game in 48 hours.<br>The compos were done in solo and the jams with some friends',
     url: 'https://ldjam.com/users/cyriaque/games',
   },
 ];
@@ -232,7 +230,7 @@ function App() {
   function listenScroll() {
     window.onscroll = function (e: any) {
       setShowBgLabel(window.scrollY === 0);
-      setShowAnchor(window.scrollY < this.window.innerHeight / 3);
+      setShowAnchor(window.scrollY < window.innerHeight / 3);
       setVideoBgOffset(window.scrollY / 1.5);
     };
   }
