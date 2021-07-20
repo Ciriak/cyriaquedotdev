@@ -54,11 +54,6 @@ const links: link[] = [
     label: 'My Steam account',
   },
   {
-    url: 'https://www.reddit.com/user/CYRIAQU3/',
-    icon: 'reddit.png',
-    label: 'My Reddit account',
-  },
-  {
     url: 'https://twitter.com/Ciriak_',
     icon: 'twitter.png',
     label: 'My Twitter',
