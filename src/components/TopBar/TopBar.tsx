@@ -5,30 +5,32 @@ import { Link } from 'react-router-dom';
 
 import { workCategories } from '../../constants';
 import './top-bar.scss';
-export default function TopBar() {
-  useEffect(() => {
-    listenScroll();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
+interface ITopBarProps {
+  alwayShown?: boolean;
+}
+export default function TopBar(props: ITopBarProps) {
   /**
    * Listen for user scroll
    */
   function listenScroll() {
+    if (props.alwayShown) {
+      setShowBar(true);
+      return;
+    }
     window.onscroll = function (e: any) {
       setShowBar(window.scrollY > window.innerHeight / 2);
     };
   }
 
-  const [showBar, setShowBar] = useState(false);
+  const [showBar, setShowBar] = useState(true);
 
   return (
     <div className={classNames('top-bar', { active: showBar })}>
-      <div className="icon">
+      <Link to={'/'} className="icon">
         <span className="letter main">C</span>
         <span className="letter left">C</span>
         <span className="letter right">C</span>
-      </div>
+      </Link>
       <div className="categories-list">
         {workCategories.map((cat, catIndex) => {
           return (

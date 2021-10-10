@@ -53,10 +53,15 @@
       .categorie-icon {
         margin-right: 8px;
       }
-      &:hover,
-      &.active {
+      &:hover {
         border-color: $primary;
         background-color: rgba($color: $primary, $alpha: 0.1);
+        &.active {
+          color: $text;
+        }
+      }
+      &.active {
+        color: $primary;
       }
     }
   }

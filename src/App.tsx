@@ -9,16 +9,16 @@ import TopBar from './components/TopBar/TopBar';
 function App() {
   return (
     <div className="cyriaque">
-      <TopBar />
       <Switch>
         <Route exact path="/">
+          <TopBar />
           <Home />
           <WorkList />
         </Route>
-        <Route path="/work/:workid">
+        <Route path="/work/:workId">
+          <TopBar alwayShown={true} />
           <WorkLoader />
         </Route>
-        <Route path="/dashboard"></Route>
       </Switch>
     </div>
   );
