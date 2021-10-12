@@ -1,18 +1,13 @@
 import React from 'react';
-import { useParams } from 'react-router';
 import Work from '../work/Work';
 
-import { works } from '../../constants';
 import { findIndex } from 'lodash';
-
+import { useParams } from 'react-router-dom';
+import works from '../../constants/works';
 export default function WorkLoader() {
-  const params = useParams<{ workId: string }>();
+  let { workId } = useParams<{ workId: string }>();
 
-  if (!params.workId) {
-    return null;
-  }
-
-  const workIndex = findIndex(works, { id: params.workId });
+  const workIndex = findIndex(works, { id: workId });
 
   return <Work work={works[workIndex]} />;
 }

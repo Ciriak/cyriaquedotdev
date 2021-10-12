@@ -1,0 +1,120 @@
+@import '../../app.scss';
+.sidebar {
+  width: 30%;
+  height: 100%;
+  max-width: 400px;
+  overflow: hidden;
+
+  position: relative;
+  .sidebar-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-duration: 0.5s;
+    &.video-loaded {
+      opacity: 1;
+    }
+  }
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    .main-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icon {
+      opacity: 0;
+      position: relative;
+      animation: fadeIn 0.5s forwards;
+      .letter {
+        font-size: 5rem;
+        font-family: 'Lato';
+        &.main {
+          position: relative;
+          z-index: 2;
+          text-shadow: 0px 0px 5px #fff;
+        }
+        &.left {
+          position: absolute;
+          left: 0;
+          color: $letter-left;
+          transform: translateX(4px);
+        }
+        &.right {
+          position: absolute;
+          left: 0;
+          color: $letter-right;
+          transform: translateX(-4px);
+        }
+      }
+    }
+    h1 {
+      font-weight: bold;
+      opacity: 0.9;
+      margin: 10px;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-weight: normal;
+      opacity: 0.7;
+      margin: 10px;
+      font-size: 1.3rem;
+    }
+    .categories-container {
+      top: 10px;
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .categorie-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        padding: 10px 15px;
+        margin: 5px;
+        border: 3px $secondary solid;
+        position: relative;
+        border-radius: 5px;
+        transition-duration: 0.3s;
+        background-color: $bg;
+        .categorie-icon {
+          left: 8px;
+          opacity: 0.4;
+          position: absolute;
+          transition-duration: 0.3s;
+        }
+
+        &:hover {
+          border-color: $primary;
+          color: $primary;
+          .categorie-icon {
+            opacity: 1;
+            position: absolute;
+
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

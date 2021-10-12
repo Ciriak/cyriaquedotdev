@@ -1,16 +1,19 @@
 @import '../../app.scss';
 .work-list {
   min-height: 100vh;
-  margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+
   justify-content: center;
+
   .work-card {
+    animation-duration: 0.3s;
     flex: 1 1 25%;
-    margin: 20px;
     border: 1px $secondary solid;
     background-size: cover;
     position: relative;
+    animation: showCard 0.2s linear forwards;
+    opacity: 0;
     .work-background {
       position: absolute;
       top: 0;
@@ -19,7 +22,7 @@
       height: 100%;
       background-size: cover;
       background-position: 50% 50%;
-      opacity: 0.5;
+      opacity: 0.9;
       overflow: hidden;
 
       transition-duration: 0.3s;
@@ -39,8 +42,9 @@
         transition-duration: 0.2s;
         background-color: rgba($color: #000000, $alpha: 0.5);
         padding: 5px 10px;
-        transform: translateY(-90px);
+        transform: translateY(-30px);
         border-radius: 5px;
+        opacity: 0;
       }
       .work-description {
         opacity: 0;
@@ -69,6 +73,7 @@
       }
       .work-content {
         .work-name {
+          opacity: 1;
           transform: translateY(-20px);
           background-color: transparent;
         }
@@ -77,5 +82,11 @@
         }
       }
     }
+  }
+}
+
+@keyframes showCard {
+  to {
+    opacity: 1;
   }
 }

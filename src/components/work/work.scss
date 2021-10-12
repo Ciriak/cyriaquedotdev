@@ -1,11 +1,35 @@
 @import '../../app.scss';
 .work {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  user-select: text;
+  width: 100%;
+  background-color: $bg;
+  transform: translateX(100%);
+  animation: slideIn 0.5s forwards;
+
   .work-header {
-    margin-top: 50px;
     height: 150px;
     width: 100%;
-    position: relative;
+    position: sticky;
+    top: 0;
     overflow: hidden;
+    box-shadow: 0px 0px 20px $bg;
+    background-color: $bg;
+    z-index: 2;
+    .work-close-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 10px;
+      z-index: 3;
+      opacity: 0.5;
+      transition-duration: 0.15s;
+      &:hover {
+        opacity: 1;
+      }
+    }
     .work-h-background {
       position: absolute;
       width: 100%;
@@ -28,9 +52,8 @@
     }
   }
   .work-content {
-    width: 80%;
     max-width: 800px;
-    margin: auto;
+    margin: 40px;
     a {
       color: $primary;
       &:hover {
@@ -45,5 +68,11 @@
     small {
       opacity: 0.6;
     }
+  }
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
   }
 }

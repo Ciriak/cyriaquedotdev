@@ -1,7 +1,21 @@
 export default interface IWork {
   id: string;
-  label: string;
+  name: string;
   description: string;
-  imageUrl?: string;
-  externalUrl?: string;
+  backgrounds: {
+    image?: {
+      url: string;
+    };
+    video?: {
+      url: string;
+    };
+  };
+  iconUrl?: string;
+  links?: [
+    {
+      iconPath: string;
+      label: string;
+      url: string;
+    }
+  ];
 }
