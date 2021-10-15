@@ -14,8 +14,13 @@ export default function WorkList() {
   function WorkCard(props: IWorkCardProps) {
     const work = props.work;
 
+    let workLink = `/work/${work.id}`;
+    if (work.disabled) {
+      workLink = '#';
+    }
+
     return (
-      <Link to={`/work/${work.id}`} style={{ animationDelay: `0.${props.index * 100}s` }} className={classNames('work-card')}>
+      <Link to={workLink} style={{ animationDelay: `0.${props.index * 100}s` }} className={classNames('work-card', { disabled: work.disabled })}>
         {work.backgrounds.image && <div className="work-background" style={{ backgroundImage: `url('${work.backgrounds.image.url}')` }}></div>}
 
         <div className="work-content">

@@ -84,6 +84,10 @@
         }
       }
     }
+
+    &.disabled {
+      cursor: default;
+    }
   }
 }
 

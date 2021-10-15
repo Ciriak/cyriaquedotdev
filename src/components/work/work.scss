@@ -5,12 +5,13 @@
   top: 0;
   user-select: text;
   width: 100%;
+  min-height: 100%;
   background-color: $bg;
   transform: translateX(100%);
   animation: slideIn 0.3s forwards;
 
   .work-header {
-    height: 150px;
+    height: 100px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -18,6 +19,9 @@
     box-shadow: 0px 0px 20px $bg;
     background-color: $bg;
     z-index: 2;
+    h1 {
+      margin-bottom: 0;
+    }
     .work-close-button {
       position: absolute;
       top: 0;
@@ -53,7 +57,7 @@
   }
   .work-content {
     max-width: 800px;
-    margin: 40px;
+    margin: auto;
     a {
       color: $primary;
       &:hover {
