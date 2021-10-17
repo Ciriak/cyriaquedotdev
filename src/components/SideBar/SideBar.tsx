@@ -4,7 +4,7 @@ import './side-bar.scss';
 import workCategories from '../../constants/workCategories';
 import Icon from '@mdi/react';
 import { Link } from 'react-router-dom';
-import { mdiEmail, mdiGithub, mdiLinkedin, mdiMail, mdiTwitter } from '@mdi/js';
+import { mdiEmail, mdiGithub, mdiLinkedin, mdiTwitter } from '@mdi/js';
 export default function SideBar() {
   function handleVideoLoaded() {
     setVideoLoaded(true);
