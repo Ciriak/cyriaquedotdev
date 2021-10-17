@@ -1,4 +1,4 @@
-import { mdiCodeBraces, mdiDrawing, mdiHeartOutline, mdiMusic } from '@mdi/js';
+import { mdiCodeBraces, mdiDrawing, mdiMusic } from '@mdi/js';
 
 const workCategories: { title: string; iconPath: string; link: string }[] = [
   {

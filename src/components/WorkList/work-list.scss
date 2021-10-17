@@ -90,6 +90,23 @@
       cursor: default;
     }
   }
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+
+    .work-card {
+      flex: 1;
+      .work-content {
+        align-items: flex-end;
+        .work-name {
+          opacity: 1;
+          transform: translate(0);
+        }
+        .work-description {
+          top: 0;
+        }
+      }
+    }
+  }
 }
 
 @keyframes showCard {

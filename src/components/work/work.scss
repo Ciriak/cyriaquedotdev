@@ -74,6 +74,21 @@
       opacity: 0.6;
     }
   }
+  @media (max-width: 800px) {
+    .work-header {
+      h1 {
+        font-size: 1.2rem;
+      }
+      p {
+        display: none;
+      }
+    }
+    .work-content {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
 }
 
 @keyframes slideIn {

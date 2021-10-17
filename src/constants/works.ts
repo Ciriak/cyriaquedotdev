@@ -8,16 +8,6 @@ import IWork from '../interfaces/Work.interface';
  */
 const works: IWork[] = [
   {
-    id: 'development',
-    name: 'Development',
-    description: '',
-    backgrounds: {
-      image: {
-        url: '',
-      },
-    },
-  },
-  {
     id: 'carnelian',
     name: 'Carnelian',
     description: 'Automation and userscripts for desktop',

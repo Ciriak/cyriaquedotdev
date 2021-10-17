@@ -36,7 +36,7 @@ export default function WorkList() {
     <>
       <div className="work-list">
         {works.map((work, workIndex) => {
-          return <>{!work.sidebar && <WorkCard work={work} index={workIndex} key={workIndex} />}</>;
+          return <WorkCard work={work} index={workIndex} key={workIndex} />;
         })}
       </div>
     </>
