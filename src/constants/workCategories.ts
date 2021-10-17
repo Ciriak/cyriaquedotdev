@@ -4,23 +4,24 @@ const workCategories: { title: string; iconPath: string; link: string }[] = [
   {
     title: 'Development',
     iconPath: mdiCodeBraces,
-    link: '#development',
+    link: '/work/development',
   },
   {
     title: 'Visual & design',
     iconPath: mdiDrawing,
-    link: '#visual',
+
+    link: '/work/design',
   },
   {
     title: 'Audio and Music',
     iconPath: mdiMusic,
-    link: '#audio',
+    link: '/work/audio',
   },
-  {
-    title: 'Other stuff i like',
-    iconPath: mdiHeartOutline,
-    link: '/like',
-  },
+  // {
+  //   title: 'Other stuff i like',
+  //   iconPath: mdiHeartOutline,
+  //   link: '/like',
+  // },
 ];
 
 export default workCategories;

@@ -8,6 +8,16 @@ import IWork from '../interfaces/Work.interface';
  */
 const works: IWork[] = [
   {
+    id: 'development',
+    name: 'Development',
+    description: '',
+    backgrounds: {
+      image: {
+        url: '',
+      },
+    },
+  },
+  {
     id: 'carnelian',
     name: 'Carnelian',
     description: 'Automation and userscripts for desktop',
@@ -89,15 +99,21 @@ const works: IWork[] = [
     ],
   },
   {
-    id: 'ld49',
-    name: 'Game for the 49th Ludum Dare',
-    description: 'Game project for the 49th Ludum dare (cancelled)',
+    id: 'neon-rush',
+    name: 'Neon Rush',
+    description: 'A platformer game made in 48h for the 47th Ludum Dare',
     backgrounds: {
-      image: {
-        url: '/images/work/ld49.png',
-      },
+      image: { url: '/images/neon/neon.png' },
     },
+    links: [
+      {
+        iconPath: mdiLink,
+        label: 'Link',
+        url: 'https://ldjam.com/events/ludum-dare/47/neon-rush',
+      },
+    ],
   },
+
   {
     id: 'axio',
     name: 'Axio',
@@ -112,10 +128,20 @@ const works: IWork[] = [
   {
     id: 'remote-and-unexplored',
     name: 'Remote and Unexplored',
-    description: 'A project of alternative soundtrack for the game Factorio (in progress)',
+    description: 'A project of fan-made soundtrack for the game Factorio (in progress)',
     backgrounds: {
       image: {
         url: '/images/remote-and-unexplored/remote-and-unexplored.png',
+      },
+    },
+  },
+  {
+    id: 'ld49',
+    name: 'Game for the 49th Ludum Dare',
+    description: 'Game project for the 49th Ludum dare (cancelled)',
+    backgrounds: {
+      image: {
+        url: '/images/work/ld49.png',
       },
     },
   },

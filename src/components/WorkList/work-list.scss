@@ -9,6 +9,7 @@
   .work-card {
     animation-duration: 0.3s;
     flex: 1 1 25%;
+    min-height: 200px;
     border: 1px $secondary solid;
     background-size: cover;
     position: relative;
