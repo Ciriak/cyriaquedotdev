@@ -19,6 +19,11 @@ function Work(props: IWorkProps) {
     axios.get('/work/' + props.work.id + '.md').then((res) => {
       setWorkData(res.data);
     });
+
+    const contentElem = document.getElementById('content');
+    contentElem?.scrollTo({
+      top: 0,
+    });
   }, [props.work]);
 
   const work = props.work;
