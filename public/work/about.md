@@ -39,7 +39,7 @@ Also accept the fact that there will be a 18 Yo kid that will teach you your own
 
 ## Design
 
-As a Front-end developer, i work a lot with visual stuff : integrating mockups, making websites responsive, exchanging with the UI and UX designers.
+As a front-end developer, i work a lot with visual stuff : integrating mockups, making websites responsive, exchanging with the UI and UX designers.
 
 Even if it's not my main job, i really like designing logos and mockups for my projects :
 
