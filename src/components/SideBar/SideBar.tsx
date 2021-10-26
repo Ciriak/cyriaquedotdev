@@ -4,7 +4,7 @@ import './side-bar.scss';
 import workCategories from '../../constants/workCategories';
 import Icon from '@mdi/react';
 import { Link } from 'react-router-dom';
-import { mdiEmail, mdiGithub, mdiLinkedin, mdiTwitter } from '@mdi/js';
+import { mdiEmail, mdiGithub, mdiInformationOutline, mdiLinkedin, mdiTwitter } from '@mdi/js';
 export default function SideBar() {
   function handleVideoLoaded() {
     setVideoLoaded(true);
@@ -33,9 +33,18 @@ export default function SideBar() {
               <Link to={cat.link} key={catIndex}>
                 <div className="categorie-button">
                   <Icon className="categorie-icon" path={cat.iconPath} size={0.8} />
-
                   <span className="categorie-title">{cat.title}</span>
                 </div>
+              </Link>
+            );
+          })}
+        </div>
+
+        <div className="categories-container-mobile">
+          {workCategories.map((cat, catIndex) => {
+            return (
+              <Link to={cat.link} key={catIndex}>
+                <Icon className="categorie-icon" path={mdiInformationOutline} size={0.8} />
               </Link>
             );
           })}
