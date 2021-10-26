@@ -61,7 +61,7 @@ Even if it's not my main job, i really like designing logos and mockups for my p
 
 I am quietly doing some music production for fun during my free time, it's mainly experiments since i work on music the same way i work for development : trial and error
 
-I am using **Fl Studio** and a **Komplete Kontrol S61** keyboard
+I am using **FL Studio** and a **Komplete Kontrol S61** keyboard
 
 <img src="/images/work/audio-keyboard.jpg" height="350px">
 
