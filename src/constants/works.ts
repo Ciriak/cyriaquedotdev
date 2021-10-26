@@ -127,11 +127,22 @@ const works: IWork[] = [
   },
   {
     id: 'ld49',
-    name: 'Game for the 49th Ludum Dare',
+    name: 'Unfinished game for the 49th Ludum Dare',
     description: 'Game project for the 49th Ludum dare (cancelled)',
     backgrounds: {
       image: {
         url: '/images/work/ld49.png',
+      },
+    },
+  },
+  {
+    id: 'about',
+    name: 'About my work',
+    description: 'My journey into development and more',
+    hidden: true,
+    backgrounds: {
+      image: {
+        url: '/images/work/development.jpg',
       },
     },
   },

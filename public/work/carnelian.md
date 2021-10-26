@@ -23,3 +23,5 @@ The project use typescript and a proof of concept is working but i have yet to f
     <small>Example: Emulate the "media keys" (wich are not present on every keyboard) when the user press F6 F7 or F8 (now act as Previous, pause/play , Next)</small>
 
 The website of the project is available [Here](http://www.carnelian.io/)
+
+<img src="/images/carnelian/carnelian-demo.gif">

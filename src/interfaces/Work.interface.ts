@@ -3,6 +3,7 @@ export default interface IWork {
   name: string;
   description: string;
   disabled?: boolean;
+  hidden?: boolean;
   backgrounds: {
     image?: {
       url: string;

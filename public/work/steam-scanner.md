@@ -21,3 +21,7 @@ The neat part is that it also download the games cover using <a href="https://ww
 <small>Note: Apex, The sims 4 and Battlefield 4 were not on Steam when this screenshot was taken</small>
 
 You can download Steam Scanner <a href="https://steam-scanner.com/">here</a> and the sources are available <a href="https://github.com/Ciriak/Steam-Scanner">here</a>
+
+<img src="/images/steam-scanner/steam-scanner-website.png">
+
+<small>The steam scanner website: </small> <a href="https://steam-scanner.com/">https://steam-scanner.com/</a>

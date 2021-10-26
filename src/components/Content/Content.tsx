@@ -6,11 +6,14 @@ import WorkLoader from '../workLoader/WorkLoader';
 import './content.scss';
 export default function Content() {
   return (
-    <div className="content">
+    <div className="content" id="content">
       <WorkList />
       <Switch>
         <Route path={`/work/:workId`}>
           <WorkLoader />
+        </Route>
+        <Route path={`/development`}>
+          <WorkLoader workId={'development'} />
         </Route>
       </Switch>
     </div>

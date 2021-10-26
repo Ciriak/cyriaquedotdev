@@ -36,6 +36,10 @@ export default function WorkList() {
     <>
       <div className="work-list">
         {works.map((work, workIndex) => {
+          /* ignore hidden work */
+          if (work.hidden) {
+            return null;
+          }
           return <WorkCard work={work} index={workIndex} key={workIndex} />;
         })}
       </div>

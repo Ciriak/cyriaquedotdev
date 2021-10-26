@@ -1,6 +1,6 @@
 A project of a fan-made alternative soundtrack for the game [Factorio](https://www.factorio.com/)
 
-All tracks are produced by myself within **FL Studio**
+All tracks are produced by myself with **FL Studio**
 
 The goal is to create an alternative soundtrack that extends the current one.
 

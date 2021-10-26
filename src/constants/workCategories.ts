@@ -1,22 +1,17 @@
-import { mdiCodeBraces, mdiDrawing, mdiMusic } from '@mdi/js';
+import { mdiCodeBraces } from '@mdi/js';
 
 const workCategories: { title: string; iconPath: string; link: string }[] = [
   {
-    title: 'Development',
+    title: 'About my work',
     iconPath: mdiCodeBraces,
-    link: '/work/development',
+    link: '/work/about',
   },
-  {
-    title: 'Visual & design',
-    iconPath: mdiDrawing,
 
-    link: '/work/design',
-  },
-  {
-    title: 'Audio and Music',
-    iconPath: mdiMusic,
-    link: '/work/audio',
-  },
+  // {
+  //   title: 'Audio and Music',
+  //   iconPath: mdiMusic,
+  //   link: '/work/audio',
+  // },
   // {
   //   title: 'Other stuff i like',
   //   iconPath: mdiHeartOutline,

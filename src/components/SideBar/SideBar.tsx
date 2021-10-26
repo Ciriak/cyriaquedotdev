@@ -24,19 +24,19 @@ export default function SideBar() {
             <span className="letter right">C</span>
           </div>
           <h1>Cyriaque Delaunay</h1>
-          <h4>FRONT-END Developer</h4>
+          <h4>Dev and more...</h4>
         </Link>
 
         <div className="categories-container">
           {workCategories.map((cat, catIndex) => {
             return (
-              // <Link to={cat.link} key={catIndex}>
-              <div className="categorie-button">
-                <Icon className="categorie-icon" path={cat.iconPath} size={0.8} />
+              <Link to={cat.link} key={catIndex}>
+                <div className="categorie-button">
+                  <Icon className="categorie-icon" path={cat.iconPath} size={0.8} />
 
-                <span className="categorie-title">{cat.title}</span>
-              </div>
-              // </Link>
+                  <span className="categorie-title">{cat.title}</span>
+                </div>
+              </Link>
             );
           })}
         </div>
