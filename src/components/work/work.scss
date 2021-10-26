@@ -1,0 +1,99 @@
+@import '../../app.scss';
+.work {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  user-select: text;
+  width: 100%;
+  min-height: 150vh;
+  background-color: $bg;
+  transform: translateX(100%);
+  animation: slideIn 0.3s forwards;
+  padding-bottom: 48px;
+
+  .work-header {
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px $bg;
+    background-color: $bg;
+    z-index: 2;
+    h1 {
+      margin-bottom: 0;
+    }
+    .work-close-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 10px;
+      z-index: 3;
+      opacity: 0.5;
+      transition-duration: 0.15s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .work-h-background {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+      z-index: 1;
+      filter: blur(5px);
+    }
+    .work-h-content {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background-color: rgba($color: #000000, $alpha: 0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .work-content {
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+    a {
+      color: $primary;
+      &:hover {
+        text-shadow: 0px 0px 5px $primary;
+      }
+    }
+    video,
+    img {
+      margin: auto;
+      max-width: 600px;
+    }
+    small {
+      opacity: 0.6;
+    }
+  }
+  @media (max-width: 800px) {
+    .work-header {
+      h1 {
+        font-size: 1.2rem;
+      }
+      p {
+        display: none;
+      }
+    }
+    .work-content {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
+  }
+}
