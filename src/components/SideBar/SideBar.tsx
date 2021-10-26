@@ -24,7 +24,7 @@ export default function SideBar() {
             <span className="letter right">C</span>
           </div>
           <h1>Cyriaque Delaunay</h1>
-          <h4>Dev and more...</h4>
+          <h4>Development and more...</h4>
         </Link>
 
         <div className="categories-container">
