@@ -65,7 +65,7 @@ I am using **FL Studio** and a **Komplete Kontrol S61** keyboard
 
 <img src="/images/work/audio-keyboard.jpg" height="350px">
 
-The only "real" project related to music i have for now is my [alternate soundtrack for Factorio](/work/remote-and-unexplored)
+The only "real" project related to music i have for now is my [alternate soundtrack for Factorio](/work/remote-and-unexplored), i also did some prototypes for my [ld49 entry](/work/ld49) that was canceled
 
 A lot of artist inspire me , but here is some names :
 

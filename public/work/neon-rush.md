@@ -12,3 +12,4 @@ The sources are available [here](https://github.com/Ciriak/ld47)
 <img src="/images/neon/neon-demo1.png">
 <img src="/images/neon/neon-demo2.png">
 <img src="/images/neon/neon-demo3.png">
+<img src="/images/neon/neon-sprite.png">
