@@ -4,11 +4,11 @@ I have been actively working in web development since the early 2010's
 
 Nowaday i mainly work with **React**, **Typescript**, and all the ecosystem around it.
 
-I've had my years of PHP and legacy stuff but i don't really want to deal with that anymore, at least not as my main tech
+I've had my years of PHP and legacy stuff but i don't really want to deal with that anymore, at least not as my main tech.
 
-Since a few years, a decided to specialized myself into Front-end development,
+Since a few years, a decided to specialized myself into Front-end development, wich is basically the "visual" part of development.
 
-So enjoy that small list of tools i use :)
+<small>"Small" list of tools i use :) : </small>
 
 ### My current stack
 
@@ -28,6 +28,12 @@ So enjoy that small list of tools i use :)
 <img src="/images/tools-icons/php.svg" height="32px" title="PHP">
 <img src="/images/tools-icons/csharp.svg" height="32px" title="CSharp">
 <img src="/images/tools-icons/unity.jpg" height="32px" title="Unity">
+<img src="/images/tools-icons/flstudio.png" height="32px" title="FL Studio">
+<img src="/images/tools-icons/aseprite.jpg" height="32px" title="Aseprite">
+<img src="/images/tools-icons/redux.svg" height="32px" title="Redux">
+<img src="/images/tools-icons/recoil.jpg" height="32px" title="Recoil">
+<img src="/images/tools-icons/photofiltre.png" height="32px" title="Photofiltre">
+<img src="/images/tools-icons/bootstrap.png" height="32px" title="Bootstrap">
 
 I believe the only way to actually learn new things is to practice, screw the theory, you are not in school anymore, this is an industry were things move fast , **really** fast.
 
@@ -35,7 +41,7 @@ Copy example code, play with it, understand how it work.
 
 **Work on side projects**
 
-Also accept the fact that there will be a 18 Yo kid that will teach you your own job in a few years.
+Also accept the fact that there will be a 18 Yo kid that will teach you your own job in a few years... probably.
 
 ## Design
 
@@ -48,6 +54,8 @@ Even if it's not my main job, i really like designing logos and mockups for my p
 <img src="/images/icons/ld49.png" height="128px">
 <img src="/images/icons/cyriaque.png" height="128px">
 <img src="/images/icons/steam-scanner.png" height="128px">
+<img src="/images/icons/substream.png" height="128px">
+<img src="/images/icons/findpaper.png" height="128px">
 
 <br/>
 
