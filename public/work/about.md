@@ -34,6 +34,8 @@ Since a few years, a decided to specialized myself into Front-end development, w
 <img src="/images/tools-icons/recoil.jpg" height="32px" title="Recoil">
 <img src="/images/tools-icons/photofiltre.png" height="32px" title="Photofiltre">
 <img src="/images/tools-icons/bootstrap.png" height="32px" title="Bootstrap">
+<img src="/images/tools-icons/jest.png" height="32px" title="Jest">
+<img src="/images/tools-icons/vue.png" height="32px" title="VueJS">
 
 I believe the only way to actually learn new things is to practice, screw the theory, you are not in school anymore, this is an industry were things move fast , **really** fast.
 
