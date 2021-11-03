@@ -1,6 +1,6 @@
 The idea of **Carnelian** is to have a concept similar to "user-scripts" but available on Desktop _([More about user-scripts here](https://en.wikipedia.org/wiki/Userscript))_
 
-The project will expose various desktop event and APIs (like moving the mouse, timed events, etc) using [Robot.js](https://github.com/octalmage/robotjs)
+The project will expose various desktop events and APIs (like moving the mouse, timed events, etc) using [Robot.js](https://github.com/octalmage/robotjs)
 
  <video autoplay loop muted markdown="1">
         <source src="/clips/carnelian-demo-1.mp4" width="80%" type="video/mp4" markdown="0">
@@ -8,9 +8,9 @@ The project will expose various desktop event and APIs (like moving the mouse, t
     <br/>
     <small>Example : Check every 100ms the color of the screen at the coordinate 50:50, If the color is #FFFFFF (white) , then move the cursor the the coordinate 50:50</small>
 
-The project is divided in 2 major parts: the client (called "manager") and the server
+Carnelian is divided in 2 major parts: the client (called "manager") and the server
 
-- The server in in charge of executing the user scripts and emiting the various events and instructions using websockets.
+- The server in in charge of executing the user scripts and emmiting the various events and instructions using websockets.
 
 - The client itself is just a simple web app , it connect to the server, listen for the events and, of course, can emit some (like execute script "xxx" or retrieve the scripts list...).
 

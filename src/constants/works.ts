@@ -89,6 +89,14 @@ const works: IWork[] = [
     ],
   },
   {
+    id: 'missing_entry',
+    name: 'Missing Entry',
+    description: 'A "story where you are the hero" game made for the 45th Ludum Dare',
+    backgrounds: {
+      image: { url: '/images/ld45/ld45.jpg' },
+    },
+  },
+  {
     id: 'neon-rush',
     name: 'Neon Rush',
     description: 'A platformer game made in 48h for the 47th Ludum Dare',
@@ -116,16 +124,6 @@ const works: IWork[] = [
     },
   },
   {
-    id: 'remote-and-unexplored',
-    name: 'Remote and Unexplored',
-    description: 'A project of fan-made soundtrack for the game Factorio (in progress)',
-    backgrounds: {
-      image: {
-        url: '/images/remote-and-unexplored/remote-and-unexplored.png',
-      },
-    },
-  },
-  {
     id: 'ld49',
     name: 'Unfinished game for the 49th Ludum Dare',
     description: 'Game project for the 49th Ludum dare (cancelled)',
@@ -135,6 +133,17 @@ const works: IWork[] = [
       },
     },
   },
+  {
+    id: 'remote-and-unexplored',
+    name: 'Remote and Unexplored',
+    description: 'A project of fan-made soundtrack for the game Factorio (in progress)',
+    backgrounds: {
+      image: {
+        url: '/images/remote-and-unexplored/remote-and-unexplored.png',
+      },
+    },
+  },
+
   {
     id: 'about',
     name: 'About my work',

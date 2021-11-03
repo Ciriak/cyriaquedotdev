@@ -6,9 +6,9 @@ Nowaday i mainly work with **React**, **Typescript**, and all the ecosystem arou
 
 I've had my years of PHP and legacy stuff but i don't really want to deal with that anymore, at least not as my main tech.
 
-Since a few years, a decided to specialized myself into Front-end development, wich is basically the "visual" part of development.
+Since a few years, i decided to specialize myself into Front-end development, wich is basically the "visual" part of development.
 
-<small>"Small" list of tools i use :) : </small>
+<small>"Small" list of tools i use :) </small>
 
 ### My current stack
 
@@ -37,17 +37,15 @@ Since a few years, a decided to specialized myself into Front-end development, w
 <img src="/images/tools-icons/jest.png" height="32px" title="Jest">
 <img src="/images/tools-icons/vue.png" height="32px" title="VueJS">
 
-I believe the only way to actually learn new things is to practice, screw the theory, you are not in school anymore, this is an industry were things move fast , **really** fast.
+I believe the only way to actually learn new things is to practice, screw the theory, you are not in school anymore, this is an industry were things move fast, **really** fast.
 
 Copy example code, play with it, understand how it work.
 
 **Work on side projects**
 
-Also accept the fact that there will be a 18 Yo kid that will teach you your own job in a few years... probably.
-
 ## Design
 
-As a front-end developer, i work a lot with visual stuff : integrating mockups, making websites responsive, exchanging with the UI and UX designers.
+As a front-end developer, i work a lot with visual stuff : integrating mockups, making websites responsive, exchanging with the UI and UX designers, wasting my entire night because npm cannot recompile node-sass for some reason...
 
 Even if it's not my main job, i really like designing logos and mockups for my projects :
 
@@ -65,6 +63,10 @@ Even if it's not my main job, i really like designing logos and mockups for my p
 <img src="/images/carnelian/carnelian-demo.gif">
 <img src="/images/steam-scanner/steam-scanner-website.png">
 
+<video autoplay loop muted markdown="1">
+        <source src="/clips/axio.mp4" width="80%" type="video/mp4" markdown="0">
+    </video>
+
 <small>For now, all my side projects have been designed by myself</small>
 
 ## Audio production
@@ -81,7 +83,7 @@ A lot of artist inspire me , but here is some names :
 
 [Toby Fox](https://www.youtube.com/watch?v=Bl-YMD6yePc)
 
-[David Wise](https://www.youtube.com/watch?v=hHKu9W_m0nc)
+[David Wise](https://www.youtube.com/watch?v=lndBgOrTWxo)
 
 [Gareth Coker](https://youtu.be/9eR6JC_ng5E?t=66)
 
