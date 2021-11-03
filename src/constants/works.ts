@@ -27,7 +27,14 @@ const works: IWork[] = [
       },
     },
   },
-
+  {
+    id: 'missing_entry',
+    name: 'Missing Entry',
+    description: 'A "story where you are the hero" game made for the 45th Ludum Dare',
+    backgrounds: {
+      image: { url: '/images/ld45/ld45.jpg' },
+    },
+  },
   {
     id: 'video-cutter',
     name: 'Video Cutter',
@@ -88,14 +95,7 @@ const works: IWork[] = [
       },
     ],
   },
-  {
-    id: 'missing_entry',
-    name: 'Missing Entry',
-    description: 'A "story where you are the hero" game made for the 45th Ludum Dare',
-    backgrounds: {
-      image: { url: '/images/ld45/ld45.jpg' },
-    },
-  },
+
   {
     id: 'neon-rush',
     name: 'Neon Rush',
