@@ -123,6 +123,7 @@ const works: IWork[] = [
       },
     },
   },
+
   {
     id: 'ld49',
     name: 'Unfinished game for the 49th Ludum Dare',
@@ -143,7 +144,16 @@ const works: IWork[] = [
       },
     },
   },
-
+  {
+    id: 'tesla-tracker',
+    name: 'Tesla Tracker',
+    description: 'A collection of automated tools and repository for datamining Tesla Services',
+    backgrounds: {
+      image: {
+        url: '/images/tesla-tracker/tesla-tracker.png',
+      },
+    },
+  },
   {
     id: 'about',
     name: 'About my work',
