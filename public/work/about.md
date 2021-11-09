@@ -60,9 +60,10 @@ Even if it's not my main job, i really like designing logos and mockups for my p
 
 <br/>
 
-<img src="/images/video-cutter/video-cutter-demo1.png">
-<img src="/images/carnelian/carnelian-demo.gif">
-<img src="/images/steam-scanner/steam-scanner-website.png">
+<img src="/images/video-cutter/video-cutter-demo1.png" alt="Video cutter">
+<img src="/images/carnelian/carnelian-demo.gif" alt="Carnelian">
+<img src="/images/tagifier/tagifier-demo1.jpg" alt="Tagifier"/>
+<img src="/images/steam-scanner/steam-scanner-website.png" alt="steam canner">
 
 <video autoplay loop muted markdown="1">
         <source src="/clips/axio.mp4" width="80%" type="video/mp4" markdown="0">
