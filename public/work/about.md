@@ -49,13 +49,14 @@ As a front-end developer, i work a lot with visual stuff : integrating mockups, 
 
 Even if it's not my main job, i really like designing logos and mockups for my projects :
 
-<img src="/images/icons/axio.png" height="128px">
-<img src="/images/icons/carnelian.png" height="128px">
-<img src="/images/icons/ld49.png" height="128px">
-<img src="/images/icons/cyriaque.png" height="128px">
-<img src="/images/icons/steam-scanner.png" height="128px">
-<img src="/images/icons/substream.png" height="128px">
-<img src="/images/icons/findpaper.png" height="128px">
+<img src="/images/icons/axio.png" height="96px" alt="Axio">
+<img src="/images/icons/carnelian.png" height="96px" alt="Carnelian">
+<img src="/images/icons/ld49.png" height="96px" alt="Ld49">
+<img src="/images/icons/cyriaque.png" height="96px" alt="Cyriaque">
+<img src="/images/icons/steam-scanner.png" height="96px" alt="Steam Scanner">
+<img src="/images/icons/substream.png" height="96px" alt="SubStream">
+<img src="/images/icons/findpaper.png" height="96px" alt="Findpaper">
+<img src="/images/icons/tesla-tracker.png" height="96px" alt="Tesla Tracker">
 
 <br/>
 
