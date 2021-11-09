@@ -16,10 +16,10 @@ The goal is to create an alternative soundtrack that extends the current one.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KVvXv1Z6EY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Original Game Soundtrack
+<!-- ## Original Game Soundtrack
 
 #### Composed by Daniel James Taylor
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fGnXAd3nv0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KVOzseLNzXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KVOzseLNzXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> -->
