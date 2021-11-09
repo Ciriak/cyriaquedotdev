@@ -70,6 +70,9 @@
       margin: 10px;
       font-size: 1.2rem;
     }
+    .categories-container-mobile {
+      display: none;
+    }
     .categories-container {
       top: 10px;
       margin-top: 40px;
@@ -153,6 +156,22 @@
       .categories-container {
         display: none;
       }
+
+      .categories-container-mobile {
+        display: block;
+        padding-top: 24px;
+        a {
+          border: 2px $text solid;
+
+          width: 32px;
+          height: 32px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
       .icon {
         margin-top: 15px;
         .letter {

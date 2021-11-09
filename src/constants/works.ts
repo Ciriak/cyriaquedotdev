@@ -27,7 +27,14 @@ const works: IWork[] = [
       },
     },
   },
-
+  {
+    id: 'missing_entry',
+    name: 'Missing Entry',
+    description: 'A "story where you are the hero" game made for the 45th Ludum Dare',
+    backgrounds: {
+      image: { url: '/images/ld45/ld45.jpg' },
+    },
+  },
   {
     id: 'video-cutter',
     name: 'Video Cutter',
@@ -88,6 +95,7 @@ const works: IWork[] = [
       },
     ],
   },
+
   {
     id: 'neon-rush',
     name: 'Neon Rush',
@@ -115,6 +123,17 @@ const works: IWork[] = [
       },
     },
   },
+
+  {
+    id: 'ld49',
+    name: 'Unfinished game for the 49th Ludum Dare',
+    description: 'Game project for the 49th Ludum dare (cancelled)',
+    backgrounds: {
+      image: {
+        url: '/images/work/ld49.png',
+      },
+    },
+  },
   {
     id: 'remote-and-unexplored',
     name: 'Remote and Unexplored',
@@ -126,12 +145,12 @@ const works: IWork[] = [
     },
   },
   {
-    id: 'ld49',
-    name: 'Unfinished game for the 49th Ludum Dare',
-    description: 'Game project for the 49th Ludum dare (cancelled)',
+    id: 'tesla-tracker',
+    name: 'Tesla Tracker',
+    description: 'Tools for datamining Tesla services',
     backgrounds: {
       image: {
-        url: '/images/work/ld49.png',
+        url: '/images/tesla-tracker/tesla-tracker.png',
       },
     },
   },

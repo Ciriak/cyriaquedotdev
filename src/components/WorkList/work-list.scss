@@ -3,18 +3,15 @@
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap-reverse;
-
   justify-content: center;
 
   .work-card {
-    animation-duration: 0.3s;
     flex: 1 1 25%;
     min-height: 200px;
     border: 1px $secondary solid;
     background-size: cover;
     position: relative;
-    animation: showCard 0.2s linear forwards;
-    opacity: 0;
+
     overflow: hidden;
     .work-background {
       position: absolute;
@@ -105,6 +102,21 @@
           top: 0;
         }
       }
+    }
+  }
+
+  /* when a work is active */
+  &.reduced {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Only run the animation the first time */
+  &.animated {
+    .work-card {
+      animation-duration: 0.3s;
+      opacity: 0;
+      animation: showCard 0.2s linear forwards;
     }
   }
 }

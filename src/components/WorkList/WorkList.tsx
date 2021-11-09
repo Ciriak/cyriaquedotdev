@@ -1,6 +1,7 @@
 import classNames from 'classnames';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
+
 import works from '../../constants/works';
 
 import IWork from '../../interfaces/Work.interface';
@@ -10,6 +11,19 @@ export default function WorkList() {
     index: number;
     work: IWork;
   }
+
+  const history = useHistory();
+
+  const [workActive, setWorkActive] = useState(false);
+  const [shouldRunAnim, setShouldRunAnim] = useState(true);
+  useEffect(() => {
+    history.listen(() => {
+      setWorkActive(document.location.pathname.includes('/work'));
+      // only run the animation the first time
+      setShouldRunAnim(false);
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function WorkCard(props: IWorkCardProps) {
     const work = props.work;
@@ -34,7 +48,7 @@ export default function WorkList() {
 
   return (
     <>
-      <div className="work-list">
+      <div className={classNames('work-list', { reduced: workActive, animated: shouldRunAnim })}>
         {works.map((work, workIndex) => {
           /* ignore hidden work */
           if (work.hidden) {
