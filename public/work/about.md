@@ -6,11 +6,11 @@ Nowaday i mainly work with **React**, **Typescript**, and all the ecosystem arou
 
 I've had my years of PHP and legacy stuff but i don't really want to deal with that anymore, at least not as my main tech.
 
-Since a few years, i decided to specialize myself into Front-end development, wich is basically the "visual" part of development.
+Since a few years, i decided to specialize in Front-end development, wich is basically the "visual" part of development.
 
 <small>"Small" list of tools i use :) </small>
 
-### My current stack
+### My current toolset
 
 <img src="/images/tools-icons/typescript.png" height="32px" title="Typescript">
 <img src="/images/tools-icons/react.png" height="32px" title="React">
@@ -36,10 +36,11 @@ Since a few years, i decided to specialize myself into Front-end development, wi
 <img src="/images/tools-icons/bootstrap.png" height="32px" title="Bootstrap">
 <img src="/images/tools-icons/jest.png" height="32px" title="Jest">
 <img src="/images/tools-icons/vue.png" height="32px" title="VueJS">
+<img src="/images/tools-icons/sonyvegas.png" height="32px" title="Sony Vegas">
 
 I believe the only way to actually learn new things is to practice, screw the theory, you are not in school anymore, this is an industry were things move fast, **really** fast.
 
-Copy example code, play with it, understand how it work.
+Copy example code, play with it, understand how it works.
 
 **Work on side projects**
 
@@ -79,9 +80,9 @@ I am using **FL Studio** and a **Komplete Kontrol S61** keyboard
 
 <img src="/images/work/audio-keyboard.jpg" height="350px">
 
-The only "real" project related to music i have for now is my [alternate soundtrack for Factorio](/work/remote-and-unexplored), i also did some prototypes for my [ld49 entry](/work/ld49) that was canceled
+The only "real" project related to music i have for now is my [alternate soundtrack for Factorio](/work/remote-and-unexplored), i have also made some prototypes for my [ld49 entry](/work/ld49) that was canceled
 
-A lot of artist inspire me , but here is some names :
+A lot of artist inspire me , but here are some names :
 
 [Toby Fox](https://www.youtube.com/watch?v=Bl-YMD6yePc)
 
