@@ -2,7 +2,7 @@ A platform / puzzle game created in 48 hours for the 48th Ludum dare
 
 The theme was "deeper and deeper"
 
-Hugely inspired by the design of the Portal games ( [Example](https://www.youtube.com/watch?v=w5I3VnCHWsU&list=PLyMGF0qA5mH2a0gF-ZSVXVD24tjLM6gwe&index=9) )
+Hugely inspired by the design of the Portal games ( [example](https://www.youtube.com/watch?v=w5I3VnCHWsU&list=PLyMGF0qA5mH2a0gF-ZSVXVD24tjLM6gwe&index=9) )
 
 One of the gimmicks is that the music is evolving while you progress throught the puzzles
 
