@@ -147,7 +147,7 @@ const works: IWork[] = [
   {
     id: 'tesla-tracker',
     name: 'Tesla Tracker',
-    description: 'Tools for datamining Tesla services',
+    description: 'Tools for tracking Tesla services',
     backgrounds: {
       image: {
         url: '/images/tesla-tracker/tesla-tracker.png',
