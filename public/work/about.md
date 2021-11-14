@@ -88,7 +88,7 @@ A lot of artist inspire me , but here are some names :
 
 [David Wise](https://www.youtube.com/watch?v=lndBgOrTWxo)
 
-[Gareth Coker](https://youtu.be/9eR6JC_ng5E?t=66)
+[Gareth Coker](https://www.youtube.com/watch?v=U-tWqEod9Ig)
 
 [Lena Raine](https://www.youtube.com/watch?v=VXIqXaX1blY)
 
