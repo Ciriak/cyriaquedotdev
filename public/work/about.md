@@ -12,31 +12,31 @@ Since a few years, i decided to specialize in Front-end development, wich is bas
 
 ### My current toolset
 
-<img src="/images/tools-icons/typescript.png" height="32px" title="Typescript">
-<img src="/images/tools-icons/react.png" height="32px" title="React">
-<img src="/images/tools-icons/git.png" height="32px" title="Git">
-<img src="/images/tools-icons/vscode.png" height="32px" title="Visual Studio Code">
-<img src="/images/tools-icons/mongodb.png" height="32px" title="Mongo DB">
-<img src="/images/tools-icons/sass.png" height="32px" title="Sass">
-<img src="/images/tools-icons/electron.png" height="32px" title="Electron">
-<img src="/images/tools-icons/js.png" height="32px" title="Javascript">
-<img src="/images/tools-icons/node.png" height="32px" title="Node JS">
+<img src="/images/tools-icons/typescript.png" height="32px" title="Typescript" class="tool-icon">
+<img src="/images/tools-icons/react.png" height="32px" title="React" class="tool-icon">
+<img src="/images/tools-icons/git.png" height="32px" title="Git" class="tool-icon">
+<img src="/images/tools-icons/vscode.png" height="32px" title="Visual Studio Code" class="tool-icon">
+<img src="/images/tools-icons/mongodb.png" height="32px" title="Mongo DB" class="tool-icon">
+<img src="/images/tools-icons/sass.png" height="32px" title="Sass" class="tool-icon">
+<img src="/images/tools-icons/electron.png" height="32px" title="Electron" class="tool-icon">
+<img src="/images/tools-icons/js.png" height="32px" title="Javascript" class="tool-icon">
+<img src="/images/tools-icons/node.png" height="32px" title="Node JS" class="tool-icon">
 
 ### Other tools i also use sometime
 
-<img src="/images/tools-icons/mysql.png" height="32px" title="MySQL">
-<img src="/images/tools-icons/php.svg" height="32px" title="PHP">
-<img src="/images/tools-icons/csharp.svg" height="32px" title="CSharp">
-<img src="/images/tools-icons/unity.jpg" height="32px" title="Unity">
-<img src="/images/tools-icons/flstudio.png" height="32px" title="FL Studio">
-<img src="/images/tools-icons/aseprite.jpg" height="32px" title="Aseprite">
-<img src="/images/tools-icons/redux.svg" height="32px" title="Redux">
-<img src="/images/tools-icons/recoil.jpg" height="32px" title="Recoil">
-<img src="/images/tools-icons/photofiltre.png" height="32px" title="Photofiltre">
-<img src="/images/tools-icons/bootstrap.png" height="32px" title="Bootstrap">
-<img src="/images/tools-icons/jest.png" height="32px" title="Jest">
-<img src="/images/tools-icons/vue.png" height="32px" title="VueJS">
-<img src="/images/tools-icons/sonyvegas.png" height="32px" title="Sony Vegas">
+<img src="/images/tools-icons/mysql.png" height="32px" title="MySQL" class="tool-icon">
+<img src="/images/tools-icons/php.svg" height="32px" title="PHP" class="tool-icon">
+<img src="/images/tools-icons/csharp.svg" height="32px" title="CSharp" class="tool-icon">
+<img src="/images/tools-icons/unity.jpg" height="32px" title="Unity" class="tool-icon">
+<img src="/images/tools-icons/flstudio.png" height="32px" title="FL Studio" class="tool-icon">
+<img src="/images/tools-icons/aseprite.jpg" height="32px" title="Aseprite" class="tool-icon">
+<img src="/images/tools-icons/redux.svg" height="32px" title="Redux" class="tool-icon">
+<img src="/images/tools-icons/recoil.jpg" height="32px" title="Recoil" class="tool-icon">
+<img src="/images/tools-icons/photofiltre.png" height="32px" title="Photofiltre" class="tool-icon">
+<img src="/images/tools-icons/bootstrap.png" height="32px" title="Bootstrap" class="tool-icon">
+<img src="/images/tools-icons/jest.png" height="32px" title="Jest" class="tool-icon">
+<img src="/images/tools-icons/vue.png" height="32px" title="VueJS" class="tool-icon">
+<img src="/images/tools-icons/sonyvegas.png" height="32px" title="Sony Vegas" class="tool-icon">
 
 I believe the only way to actually learn new things is to practice, screw the theory, you are not in school anymore, this is an industry were things move fast, **really** fast.
 
