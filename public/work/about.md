@@ -10,7 +10,7 @@ Since a few years, i decided to specialize in Front-end development, wich is bas
 
 <small>"Small" list of tools i use :) </small>
 
-### My current toolset
+### My current stack
 
 <img src="/images/tools-icons/typescript.png" height="32px" title="Typescript" class="tool-icon">
 <img src="/images/tools-icons/react.png" height="32px" title="React" class="tool-icon">
