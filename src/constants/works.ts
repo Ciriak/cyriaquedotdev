@@ -122,19 +122,6 @@ const works: IWork[] = [
       },
     ],
   },
-
-  {
-    id: 'axio',
-    name: 'Axio',
-    description: 'Soon (maybe)',
-    disabled: true,
-    backgrounds: {
-      image: {
-        url: '/images/axio/axio.png',
-      },
-    },
-  },
-
   {
     id: 'ld49',
     name: 'Unfinished game for the 49th Ludum Dare',
@@ -162,6 +149,18 @@ const works: IWork[] = [
     backgrounds: {
       image: {
         url: '/images/tesla-tracker/tesla-tracker.png',
+      },
+    },
+  },
+
+  {
+    id: 'axio',
+    name: 'Axio',
+    description: 'Soon (maybe)',
+    disabled: true,
+    backgrounds: {
+      image: {
+        url: '/images/axio/axio.png',
       },
     },
   },
