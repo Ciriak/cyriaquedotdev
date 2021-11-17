@@ -81,6 +81,17 @@ const works: IWork[] = [
     ],
   },
   {
+    id: 'police-assault-in-progress',
+    name: '// POLICE ASSAULT IN PROGRESS //',
+    description: 'A recreation of the Payday assault banner with CSS',
+
+    backgrounds: {
+      image: {
+        url: '/images/paip/paip.png',
+      },
+    },
+  },
+  {
     id: 'codepen',
     name: 'My Codepen',
     description: 'A collection of small visual experiments',
