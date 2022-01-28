@@ -1,7 +1,8 @@
 {
   "name": "cyriaque",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://cyriaque.net",
   "dependencies": {
     "@mdi/js": "^6.2.95",
     "@mdi/react": "^1.5.0",
@@ -16,6 +17,7 @@
     "@types/react-router-dom": "^5.3.1",
     "axios": "^0.22.0",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
     "netlify-cli": "^6.14.4",
     "react": "^16.13.1",
@@ -29,10 +31,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn run build && netlify deploy --prod"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
