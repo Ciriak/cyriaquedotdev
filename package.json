@@ -2,7 +2,7 @@
   "name": "cyriaque",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Ciriak.github.io/cyriaque.net",
+  "homepage": "https://Ciriak.github.io/cyriaquedotnet",
   "dependencies": {
     "@mdi/js": "^6.2.95",
     "@mdi/react": "^1.5.0",
