@@ -1,24 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
 
-$bg: #141419;
-$text: #e3e3f3;
-$primary: #ec3b5a;
-$secondary: #26262f;
-$letter-left: #16c1f3;
-$letter-right: #ed0677;
-
 body {
-  user-select: none;
-  background-color: $bg;
+  background-color: #000;
   padding: 0;
   margin: 0 auto;
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*
@@ -33,19 +24,19 @@ scroll
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: $primary;
-  border: none;
+  background: #3c3c3c;
+  border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: $primary;
+  background: #3c3c3c;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: $primary;
+  background: #3c3c3c;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
-  border: none;
+  border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
@@ -63,10 +54,102 @@ a {
   text-decoration: none;
 }
 
-.cyriaque {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  height: 100vh;
+.section {
+  min-height: 100vh;
+  position: relative;
+
+  .section-bg {
+    height: 100%;
+    width: 100%;
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .section-content {
+    position: absolute;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: 2;
+  }
+}
+
+.main-section {
+  .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    h2,
+    .links-container {
+      opacity: 0;
+    }
+
+    h2 {
+      animation: fadeIn 0.5s forwards;
+      animation-delay: 1s;
+    }
+
+    .links-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: fadeIn 0.5s forwards;
+      animation-delay: 1.5s;
+      .link {
+        opacity: 0.8;
+        padding: 20px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+
+        img {
+          height: 48px;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .bg-infos {
+      opacity: 0;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      font-size: 0.7rem;
+      margin: 5px;
+      transition-duration: 0.3s;
+      user-select: none;
+      b {
+        cursor: pointer;
+      }
+
+      &.active {
+        opacity: 0.3;
+      }
+    }
+  }
+}
+
+.video-bg {
+  opacity: 0;
+  transition: opacity 1s;
+  position: fixed;
+  &.loaded {
+    opacity: 1;
+  }
 }
