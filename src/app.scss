@@ -71,7 +71,6 @@ a{
   .section-content{
     position: absolute;
     background-color: rgba($color: #000000, $alpha: 0.7);
-    background-image: url('/grid.png');
     background-repeat: repeat;
     top: 0;
     left: 0;
@@ -127,37 +126,6 @@ a{
       }
     }
 
-    .work-anchor{
-      margin-top: 100px;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transition-duration: 0.3s;
-      
-      .chevron{
-        position: absolute;
-        margin-top: 50px;
-        animation: chevronAnim 1s infinite;
-      }
-
-      &.active{
-        opacity: 1.0;
-      }
-    }
-
-    @keyframes chevronAnim {
-      0%{
-        margin-top: 30px;
-      }
-      50%{
-        margin-top: 40px;
-      }
-      100%{
-        margin-top: 30px;
-      }
-    }
 
     .bg-infos{
       opacity: 0;
@@ -177,26 +145,6 @@ a{
       }
     }
 
-  }
-}
-
-.work-section{
-  background-color: #000;
-  .section-bg{
-    background-color: #212121;
-    height: 100%;
-  }
-  .section-content{
-    h1{
-      text-align: center;
-      margin: 20px;
-    }
-    .works-container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
   }
 }
 
