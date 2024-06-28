@@ -81,10 +81,6 @@ const backgrounds: Background[] = [
   {
     name: 'ori',
     label: 'Ori and the blind forest (2015)'
-  },
-  {
-    name: 'celeste',
-    label: 'Celeste (2018)'
   }
 ]
 
