@@ -111,7 +111,7 @@ const links: link[] = [
   }
 ]
 
-const originalSubTitle = 'Front-End developer'
+const originalSubTitle = 'Front-End Developer'
 
 const subtitle = ref(originalSubTitle)
 const videoUrl = ref('')
