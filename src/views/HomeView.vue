@@ -90,16 +90,16 @@ const links: link[] = [
     icon: 'github.png',
     label: 'My Github'
   },
-   {
-     url: 'http://steamcommunity.com/id/Ciriak',
-     icon: 'steam.png',
-     label: 'My Steam account'
-   },
   {
-    url: 'https://x.com/Ciriak_',
-    icon: 'x.png',
-    label: 'My X account'
+    url: 'http://steamcommunity.com/id/Ciriak',
+    icon: 'steam.png',
+    label: 'My Steam account'
   },
+  // {
+  //   url: 'https://x.com/Ciriak_',
+  //   icon: 'x.png',
+  //   label: 'My X account'
+  // },
   {
     url: 'https://www.linkedin.com/in/cyriaque-delaunay-833504121/',
     icon: 'linkedin.png',
