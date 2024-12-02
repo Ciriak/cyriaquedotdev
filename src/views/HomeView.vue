@@ -63,10 +63,6 @@ let currentBg = ref()
 
 const backgrounds: Background[] = [
   {
-    name: 'tf2',
-    label: 'Team Fortress 2 (2007)'
-  },
-  {
     name: 'halo',
     label: 'Halo : The Master Chief Collection (2014)'
   },
