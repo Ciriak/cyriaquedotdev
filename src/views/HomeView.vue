@@ -86,11 +86,11 @@ const links: link[] = [
     icon: 'github.png',
     label: 'My Github'
   },
-  {
-    url: 'http://steamcommunity.com/id/Ciriak',
-    icon: 'steam.png',
-    label: 'My Steam account'
-  },
+  // {
+  //   url: 'http://steamcommunity.com/id/Ciriak',
+  //   icon: 'steam.png',
+  //   label: 'My Steam account'
+  // },
   // {
   //   url: 'https://x.com/Ciriak_',
   //   icon: 'x.png',
